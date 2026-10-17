@@ -64,7 +64,7 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: path.resolve(__dirname, "../dist/examples"),
+    outDir: path.resolve(__dirname, "../../static/epdoptimize"),
     rollupOptions: {
       input: {
         demo: path.resolve(__dirname, "index.html"),
